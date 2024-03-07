@@ -11,6 +11,21 @@ body{
     background:black;
     color: rgb(255, 255, 255);
 }
+
+.btn.btn-primary {
+    background-color: black; /* Change the background color to black */
+    color: black; /* Change the text color to white */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Adjust padding if needed */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.btn.btn-primary:hover {
+    background-color: darkgrey; /* Change background color on hover */
+    color: white; /* Keep text color white on hover */
+}
 #header{
     width: 100%;
     height: 100vh;
@@ -305,3 +320,4 @@ form input, form textarea{
     font-weight: 300;
     margin-top: 20px;
 }
+
